@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natanael Edward Agung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav class="dropdown" id="myDropdown">
+            <button class="dropbtn" onclick="toggleMenu()">Menu</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="changeContent('About Me', 'I am a computer science student at Kristen Immanuel University who is passionate about programming.')">About Me</a>
+                <a href="#" onclick="changeContent('Social Media', '<p>Linkedin: www.linkedin.com/in/natanaeledward<br>Instagram: nael_edwrd</p>')">Social Media</a>                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article id="content">
+            <h2>About Me</h2>
+            <p>I am a computer science student at Immanuel Christian University who is passionate about the world of programming.</p>
+        </article>
+        <aside>
+            <img src="assets/profil.jpg" alt="Profil">
+            <h2>My Personal Information</h2>
+            <p>Name: Natanael Edward Agung</p>
+            <p>Age: 22 years old</p>
+            <p>Residence: Yogyakarta</p>            
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Natanael Edward Agung. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
